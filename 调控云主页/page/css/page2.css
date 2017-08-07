@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, span, dt, dd,div { margin: 0px; padding: 0px;   font-weight: normal; float:none; font-family:"微软雅黑"; }
+body{ /*overflow:hidden;*/}
+html{ font-size:12px;  /*overflow:hidden;*/ }
+ul { list-style: none; }
+img { border-style:none;}
+a {text-decoration:none;}
+/* self Document */
+.container{ margin:10px auto;}
+.one_area,.two_area,.three_area,.four_area{height:169px;margin:0 10px;}
+.one_area,.two_area,.three_area{margin-bottom:10px;}
+
+.title{height:28px;line-height:28px;text-indent:12px;border:1px solid #98c3d8;color:#0a5fbd;font-weight:bold;background:#cbe9fb;}
+.content{height:138px;border:1px solid #d5d6d6;border-top:none;}
+.btn_bg{float:left;width:100px;height:100%;text-align:center;margin:0 20px;cursor:pointer;}
+.btn_bg1{margin-left:30px;}
+.btn_bg .btn{width:75px;height:75px;margin:0 auto;margin-top:20px;background:#49ace1;}
+.btn_bg .btn img{position:relative;top:20px;}
+.btn_bg .text{margin-top:10px;color:#adadad;}

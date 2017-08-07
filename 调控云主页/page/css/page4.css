@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, span, dt, dd,div { margin: 0px; padding: 0px;   font-weight: normal; float:none; font-family:"微软雅黑"; }
+body{ /*overflow:hidden;*/}
+html{ font-size:12px;  /*overflow:hidden;*/ }
+ul { list-style: none; }
+img { border-style:none;}
+a {text-decoration:none;}
+/* self Document */
+.container{ margin:10px auto;}
+.content_area{height:697px;margin:0 10px;}
+.title{height:28px;line-height:28px;text-indent:12px;border:1px solid #98c3d8;color:#0a5fbd;font-weight:bold;background:#cbe9fb;}
+.content{height:666px;border:1px solid #d5d6d6;border-top:none;}
+.key_test{height:260px;margin:0 auto;position:relative;top:50px;margin:0 auto;}
+.same{width:70%;margin:0 auto;text-align:center;height:44px;line-height:44px;margin-bottom:16px;font-size:16px;}
+input{width:266px;height:40px;line-height:40px;margin-left:10px;font-size:16px;}
+.error{width:150px;display:inline-block;text-align:left;font-size:14px;color:red;margin-left:10px;}
+.span_1{width:100px;display:inline-block;text-align:right;}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, span, dt, dd,div { margin: 0px; padding: 0px;   font-weight: normal; float:none; font-family:"微软雅黑"; }
+body{ /*overflow:hidden;*/}
+html{ font-size:12px;  /*overflow:hidden;*/ }
+ul { list-style: none; }
+img { border-style:none;}
+a {text-decoration:none;}
+/* self Document */
+.container{ margin:10px auto;}
+.content_area{width:760px;height:697px;margin:0 10px;}
+.title{height:28px;line-height:28px;text-indent:12px;border:1px solid #98c3d8;color:#0a5fbd;font-weight:bold;background:#cbe9fb;}
+.content{height:666px;border:1px solid #d5d6d6;border-top:none;}
+
+/* 第一部分 */
+.one_area{height:141px;}
+.content_1{float:left;width:200px;height:141px;line-height:141px;text-align:center;}
+.content_1 img{margin-top:10px;}
+.content_2{float:left;width:70%;height:100%;}
+.content_2_1{width:100%;height:26px;line-height:26px;margin-top:20px;color:#0a5fbd;font-size:16px;font-weight:bold;}
+.content_2_2{margin:12px 0;color:#616161;font-size:13px;}
+.content_2_3{color:#616161;font-size:13px;}
+/* 第二部分 */
+.two_area{height:149px;}
+.table1{width:26%;height:70%;position:relative;top:21px;margin-left:200px;display:inline-block;}
+.table2{width:26%;height:70%;position:relative;top:21px;margin-left:6.5%;display:inline-block;}
+table tr{height:30px;}
+table td{font-size:13px;}
+table .select{width:130px;border-bottom:1px solid #d1d2d2;}
+/* 第三部分 */
+.three_area{height:374px;}
+.title2{width:100%;height:40px;line-height:40px;margin-bottom:20px;color:#4aade2;text-indent:23px;font-size:14px;font-weight:bold;}
+.three_content{width:80%;height:314px;margin:0 auto;}
+.three_content_top{float:left;}
+.three_content_bottom{float:left;}
+.btn_bg{float:left;height:157px;text-align:center;}
+#spe{position:relative;top:-10px;left:14px;}
+.btn_bg .btn{width:75px;height:75px;margin:0 auto;margin-top:16px;background:#49ace1;cursor:pointer;}
+.btn_bg .btn img{position:relative;top:20px;}
+.btn_bg .text{margin-top:10px;color:#adadad;cursor:pointer;}
+/* 线 */
+.line{width:97%;height:1px;background:#d5d6d6;margin:0 auto;}
